@@ -33,3 +33,7 @@ vim.opt.termguicolors = true
 
 -- Setup leader key
 vim.g.mapleader = " "
+
+vim.g.go_fmt_command = "goimports"  -- Format using goimports
+vim.g.go_auto_type_info = 1         -- Show type info
+vim.g.go_def_mapping_enabled = 0    -- Use LSP for Go to definition
